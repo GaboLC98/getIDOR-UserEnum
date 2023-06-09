@@ -33,8 +33,8 @@ usage = "usage: %prog [options] arg1 arg2"
 parser = OptionParser()
 parser.add_option("-t", "--target", action="store", type="str", dest="target",help="Set the target url (use it without 'http://')")
 parser.add_option("-p", "--port", action="store", type="str", dest="port",help="Set the port")
-parser.add_option("-s", "--start", action="store", type="int", dest="start",help="Number of uid the to start fuzzing")
-parser.add_option("-e", "--end", action="store", type="int", dest="end",help="Number of uid the to finish fuzzing")
+parser.add_option("-s", "--start", action="store", type="int", dest="start",help="Number of the uid to start fuzzing")
+parser.add_option("-e", "--end", action="store", type="int", dest="end",help="Number of the uid to finish fuzzing")
 parser.add_option("-g", "--get", action="store", type="str", dest="get",help="Get request path url (e.g. /api/profile?uid=)")
 
 (options, args) = parser.parse_args()
