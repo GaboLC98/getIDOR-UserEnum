@@ -1,5 +1,5 @@
 # getIDOR-UserEnum
-User enumeration through get IDOR vulnerabilitie (created to practice on hack the box)
+User enumeration through get IDOR vulnerabilities (created to practice on hack the box)
 
 ## How to use it
 -t TARGET, --target=TARGET -> Set the target url (use it without 'http://')
