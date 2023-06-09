@@ -8,7 +8,7 @@ User enumeration through get IDOR vulnerabilities (created to practice on hack t
 
 -s START, --start=START -> Number of uid the to start fuzzing
 
--e END, --end=END -> Number of uid the to finish fuzzing
+-e END, --end=END -> Number of the uid to finish fuzzing
 
 -g GET, --get=GET -> Get request path url (e.g. /api/profile?uid=)
 
