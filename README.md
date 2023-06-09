@@ -6,7 +6,7 @@ User enumeration through get IDOR vulnerabilities (created to practice on hack t
 
 -p PORT, --port=PORT -> Set the port
 
--s START, --start=START -> Number of uid the to start fuzzing
+-s START, --start=START -> Number of the uid to start fuzzing
 
 -e END, --end=END -> Number of the uid to finish fuzzing
 
